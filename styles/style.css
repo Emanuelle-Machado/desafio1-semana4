@@ -1,0 +1,22 @@
+
+body{
+    background-color: darkblue;
+}
+
+.bar-item {
+    color: white;
+}
+
+.logo {
+    align-items: flex-start;
+}
+
+.bar-container {
+    align-items: flex-end;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
