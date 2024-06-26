@@ -6,94 +6,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
     <title>Desafio 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="conteiner" id="initial-page">
 
-        <template id="header-footer">
-            <header>
-                <div class="logo">LOGO</div>
-                <div class="bar-container">
-                    <li class="bar-item">
-                        <a class="item-link" href="#">Home</a>
-                    </li>
-                    <li class="bar-item">
-                        <a class="item-link" href="#">About us</a>
-                    </li>
-                    <li class="bar-item">
-                        <a class="item-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="bar-item">
-                        <a class="item-link" href="#">News</a>
-                    </li>
-                    <button class="bar-button">
-                        <a class="item-link" href="contactUs.html">Contact us</a>
-                    </button>
-                </div>
-            </header>
-        </template>
+        <header>
+            <h1 class="nav-title">LOGO</h1>
+            <nav class="bar-container">
+                <ul class="bar-item">
+                    <li><a class="item-link" href="#">Home</a></li>
+                </ul>
+                <ul class="bar-item">
+                    <li><a class="item-link" href="#">About us</a></li>
+                </ul>
+                <ul class="bar-item">
+                    <li><a class="item-link" href="#">Portfolio</a></li>
+                </ul>
+                <ul class="bar-item">
+                    <li><a class="item-link" href="#">News</a></li>
+                </ul>
+                <button class="bar-button">Contact us</button>
+            </nav>
+        </header>
 
         <!--section 1-->
         <section class="home">
+
             <div class="home-header">
-                <p> Proved by prodesigner</p>
+                <div class="home-text">
+                    <p id='first-text'>Proved by prodesigner</p>
 
-                <h1>Work that we produce for our clients</h1>
+                    <h1>Work that we produce for our clients</h1>
 
-                <p>
-                    Lorem ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem ipsum has been the industry's
-                    standard
-                </p>
+                    <p>
+                        Lorem ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem ipsum has been the industry's
+                        standard
+                    </p>
+                    <button class="more-details-btn">Get more details</button>
+                </div>
+                <div class="home-images">
+                    <img id="componentes" src="../img/Component 1.png" alt="componentes">
+                    <img id="joy_stick" src="../img/joy_stick 1.png" alt="joy_stick">
+                </div>
             </div>
-            <div><button class="more-details-btn">Get more details</button></div>
 
-            <div><img id="componentes" src="../img/Component 1.png" alt="componentes"></div>
-            <div><img id="joy_stick" src="../img/joy_stick 1.png" alt="joy_stick"></div>
+
+
         </section>
 
         <!--section 2-->
         <section class="trending-games">
-            <div>
+            <div class="trending-header">
                 <h3>Currently Trending Games</h3>
+
+                <button class="see-all-btn">SEE ALL</button>
             </div>
-            <div><button class="see-all-btn">SEE ALL</button></div>
-            <div>
-                <img src="../img/Rectangle 23.png">
-                <p><img src="../img/fire-icon.png">40 Followers</p>
+            <div class="currently-trending">
+                <div>
+                    <img src="../img/Rectangle 23.png">
+                    <p><img src="../img/fire-icon.png"> 40 Followers</p>
+                </div>
+                <div>
+                    <img src="../img/Rectangle 24.png">
+                    <p><img src="../img/fire-icon.png"> 40 Followers</p>
+                </div>
+                <div>
+                    <img src="../img/Rectangle 25.png">
+                    <p><img src="../img/fire-icon.png"> 40 Followers</p>
+                </div>
+                <div>
+                    <img src="../img/Rectangle 26.png">
+                    <p><img src="../img/fire-icon.png"> 40 Followers</p>
+                </div>
             </div>
-            <div>
-                <img src="../img/Rectangle 24.png">
-                <p><img src="../img/fire-icon.png">40 Followers</p>
-            </div>
-            <div>
-                <img src="../img/Rectangle 25.png">
-                <p><img src="../img/fire-icon.png">40 Followers</p>
-            </div>
-            <div>
-                <img src="../img/Rectangle 26.png">
-                <p><img src="../img/fire-icon.png">40 Followers</p>
-            </div>
-            <div>
-                <p>
-                    Lorem ipsum is simply dummy text of the
-                    printing and typesetting industry.
-                </p>
-            </div>
+
         </section>
 
         <!--section 3-->
         <section class="lorem-image">
             <div>
-                <h3>Lorem ipsum</h3>
+                <h2>
+                    Lorem ipsum is simply dummy text of the
+                    printing and typesetting industry.
+                </h2>
             </div>
             <div>
-                <h2>
+                <h3>Lorem ipsum</h3>
+                <p>
                     Lorem ipsum is simply dummy text of the printing and typesetting
                     industry. Lorem ipsum has been the industry's standard dummy text
                     ever since the 1500s.
-                </h2>
+                </p>
             </div>
             <div>
                 <img src="../img/Rectangle 4.png">
@@ -103,66 +113,64 @@
         </section>
 
         <!--section 4-->
-        <section class="lorem-options">
-            <div>
-                <h2>
-                    Lorem ipsum is simply dummy text of the printing
-                    and typesetting industry.
-                </h2>
-            </div>
-            <div>
-                <p>
-                    Lorem ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem ipsum has been the industry's standard dummy text
-                    ever since the 1500s.
-                </p>
-            </div>
-            <div>
+        <section class="gaming-options">
+            <div class="bg">
                 <div>
-                    <img src="../img/">
-                    <p>Mobile Game Development</p>
-                    <img src="../img/seta.png">
+                    <h2>
+                        Lorem ipsum is simply dummy text of the printing
+                        and typesetting industry.
+                    </h2>
+                    <p>
+                        Lorem ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem ipsum has been the industry's standard dummy text
+                        ever since the 1500s.
+                    </p>
                 </div>
-                <div>
-
-                    <p>PC Game Development</p>
-                    <img src="../img/seta.png">
-                </div>
-                <div>
-
-                    <p>PS4 Game Development</p>
-                    <img src="../img/seta.png">
-                </div>
-                <div>
-
-                    <p>AR/VR Solutions</p>
-                    <img src="../img/seta.png">
-                </div>
-            </div>
-            <div>
-                <div>
-
-                    <p>AR/VR Desings</p>
-                    <img src="../img/seta.png">
-                </div>
-                <div>
-
-                    <p>3D Modelings</p>
-                    <img src="../img/seta.png">
+                <div class="gaming-choises">
+                    <div>
+                        <img src="../img/Group 48.png">
+                        <p>Mobile Game Development</p>
+                        <img src="../img/seta.png">
+                    </div>
+                    <div>
+                        <img src="../img/Group 49.png">
+                        <p>PC Game Development</p>
+                        <img src="../img/seta.png">
+                    </div>
+                    <div>
+                        <img src="../img/Group 50.png">
+                        <p>PS4 Game Development</p>
+                        <img src="../img/seta.png">
+                    </div>
+                    <div>
+                        <img src="../img/Group 51.png">
+                        <p>AR/VR Solutions</p>
+                        <img src="../img/seta.png">
+                    </div>
+                    <div>
+                        <img src="../img/Group 52.png">
+                        <p>AR/VR Desings</p>
+                        <img src="../img/seta.png">
+                    </div>
+                    <div>
+                        <img src="../img/Group 53.png">
+                        <p>3D Modelings</p>
+                        <img src="../img/seta.png">
+                    </div>
                 </div>
             </div>
         </section>
 
         <!--section 5-->
         <section class="recent-projects">
-            <div>
+            <div class="text-projects">
                 <h2>Our Recent Projects</h2>
                 <p>
                     Lorem ipsum is simply dummy text of the printing and typesetting
                     industry.
                 </p>
             </div>
-            <div>
+            <div class="project-images">
                 <img src="../img/Rectangle 15.png">
                 <img src="../img/Rectangle 16.png">
                 <img src="../img/Rectangle 17.png">
@@ -202,52 +210,51 @@
             </div>
         </section>
 
-        <template id="header-footer">
-            <footer>
-                <div class="container-foot">
-                    <div class="column-foot">
-                        <div class="item-foot">LOGO</div>
-                        <div class="item-foot">
-                            Lorem ipsum is simply dummy text of the
-                            printing and typesetting industry.
-                        </div>
-                        <div class="item-foot">@Logo</div>
+        <footer>
+            <div class="container-foot">
+                <div class="column-foot">
+                    <div class="item-foot">LOGO</div>
+                    <div class="item-foot">
+                        Lorem ipsum is simply dummy text of the
+                        printing and typesetting industry.
                     </div>
-                    <div class="column-foot">
-                        <div class="item-foot">About us</div>
+                    <div class="item-foot">@Logo</div>
+                </div>
+                <div class="column-foot">
+                    <div class="item-foot">About us</div>
 
-                        <li class="item-foot">
-                            <a class="item-link" href="#">Zeux</a>
-                        </li>
-                        <li class="item-foot">
-                            <a class="item-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="item-foot">
-                            <a class="item-link" href="#">Careers</a>
-                        </li>
-                        <li class="item-foot">
-                            <a class="item-link" href="#">Contact us</a>
-                        </li>
+                    <li class="item-foot">
+                        <a class="item-link" href="#">Zeux</a>
+                    </li>
+                    <li class="item-foot">
+                        <a class="item-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="item-foot">
+                        <a class="item-link" href="#">Careers</a>
+                    </li>
+                    <li class="item-foot">
+                        <a class="item-link" href="#">Contact us</a>
+                    </li>
+                </div>
+                <div class="column-foot">
+                    <div class="item-foot">Contact us</div>
+                    <div class="item-foot">
+                        Lorem ipsum is simply dummy text of the
+                        printing and typesetting industry.
                     </div>
-                    <div class="column-foot">
-                        <div class="item-foot">Contact us</div>
-                        <div class="item-foot">
-                            Lorem ipsum is simply dummy text of the
-                            printing and typesetting industry.
-                        </div>
-                        <div class="item-foot">
-                            <div>+908 89097 890</div>
-                        </div>
-                    </div>
-                    <div class="social-midia">
-
+                    <div class="item-foot">
+                        <div>+908 89097 890</div>
                     </div>
                 </div>
-                <div class="copyright">
-                    <div>Copyright © 2022 prodesigner. All rights reserved</div>
+                <div class="social-midia">
+
                 </div>
-            </footer>
-        </template>
+            </div>
+            <div class="copyright">
+                <div>Copyright © 2022 prodesigner. All rights reserved</div>
+            </div>
+        </footer>
+
         <script src="../scripts/script.js"></script>
 </body>
 

@@ -1,54 +1,305 @@
-
-body{
-    background-color: 39289F 422F9C;
+body {
+  background-color: #39289f;
+  color: white;
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
 }
 
+/* ============================ HEADER */
 header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-family: "Poppins";
+  padding: 0 10% 0 10%;
 }
-.bar-container {
-    align-items: flex-end;
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
 }
-.bar-item {
-    color: white;
+header a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease 0s;
 }
-.logo {
-    align-items: flex-start;
+header a:hover {
+  color: #fa9021;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+ul {
+  display: flex;
+  align-self: center;
+}
+.nav-title {
+  display: flex;
+  font-weight: 900;
+  margin-right: auto;
+}
+.nav-title:hover {
+  color: #fa9021;
+}
+.bar-button {
+  display: inline-block;
+  background-color: #fa9021;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  height: fit-content;
+  align-self: center;
+}
+.bar-button:hover {
+  background-color: #f57c00;
 }
 
+/* ============================ SECTION 1 */
+
+#first-text {
+  color: #e87d0e;
+  font-weight: 900;
+  text-shadow: 2px 2px black;
+}
+h1 {
+  font-size: 200%;
+}
+.more-details-btn {
+  display: flex;
+  background-color: #fa9021;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.more-details-btn:hover {
+  background-color: #f57c00;
+}
+#componentes {
+  position: absolute;
+  max-width: 33%;
+  height: auto;
+  flex: 1;
+}
+#joy_stick {
+  position: absolute;
+  max-width: 33%;
+  height: auto;
+  flex: 1;
+}
+.home-images {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  flex: 1;
+  max-width: 100%;
+  height: auto;
+}
+.home-text {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: start;
+  flex: 1;
+}
+.home-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 10% 0 10%;
+}
+/*
+.home {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+          
+            flex-flow: row wrap;
+            text-align: start;
+            padding: 0 50% 0 10%;
+          }
+          .home-header,
+          .home-images {
+            flex: 1;
+          }
+*/
+
+/* ============================ SECTION 2*/
+
+.trending-games {
+  display: inline-block;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10% 0 10%;
+}
+.trending-games div h3 {
+  display: flex;
+  align-self: flex-start;
+}
+.trending-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-right: 2%;
+}
+.see-all-btn {
+  display: inline-block;
+  align-self: flex-end;
+  background-color: #5041aa;
+  border: none;
+  border-radius: 10%;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: center;
+}
+.currently-trending {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.currently-trending p {
+  display: block;
+  align-self: center;
+  text-align: start;
+  padding: 0 10% 0 10%;
+}
+.currently-trending img {
+  max-width: 93%;
+  height: auto;
+  flex: 1;
+}
+
+/* ============================ SECTION 3 */
+
+.lorem-image {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10% 10% 10% 10%;
+}
+.lorem-image h2 {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  padding: 0 20% 0 20%;
+}
+.lorem-image h3 {
+  display: flex;
+  align-self: flex-start;
+  text-align: start;
+}
+.lorem-image p {
+  display: flex;
+  align-self: flex-start;
+  text-align: start;
+}
+.lorem-image img {
+  max-width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+/* ============================ SECTION 4 */
+
+.bg {
+  background-image: url("../img/backimage.png");
+  /*filter: brightness(25%);*/
+}
+.gaming-choises {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 10% 0 10%;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 35px;
+}
+.gaming-options h2 {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  padding: 0 23% 0 23%;
+}
+.gaming-options p {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  padding: 0 14% 0 14%;
+}
+.gaming-options img {
+  max-width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+/* ============================ SECTION 5 */
+
+.recent-projects {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 10% 10% 10% 10%;
+}
+.recent-projects h2 {
+  align-self: center;
+  text-align: center;
+}
+.recent-projects p {
+  display: flex;
+  align-self: center;
+  text-align: center;
+  padding: 0 20% 0 20%;
+}
+
+.project-images {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+}
+.recent-projects img {
+  max-width: 35%;
+  height: auto;
+  flex: 1;
+}
+
+/* ============================ FOOTER */
 footer {
-    background-color: black;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
+  background-color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
 }
-
 .container-foot {
-    display: flex;
-    flex-flow: column nowwrap;
-    justify-content: space-around;
-    width: 80%; 
-    align-items: center;
+  display: flex;
+  flex-flow: column nowwrap;
+  justify-content: space-around;
+  width: 80%;
+  align-items: center;
 }
-
 .column-foot {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
 }
-
 .item-foot {
-    color: white;
+  color: white;
 }
-
 .copyright {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    width: 100%; 
-    margin-top: 20px; 
-    color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
 }
