@@ -4,12 +4,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/contactUsStyle.css">
     <title>Desafio 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
-    <template id="header-footer"></template>
+    <header>
+        <h1 class="nav-title">LOGO</h1>
+        <nav class="bar-container">
+            <ul class="bar-item">
+                <li><a class="item-link" href="../pages/home.html">Home</a></li>
+            </ul>
+            <ul class="bar-item">
+                <li><a class="item-link" href="#">About us</a></li>
+            </ul>
+            <ul class="bar-item">
+                <li><a class="item-link" href="#">Portfolio</a></li>
+            </ul>
+            <ul class="bar-item">
+                <li><a class="item-link" href="#">News</a></li>
+            </ul>
+            <button class="bar-button">Contact us</button>
+        </nav>
+    </header>
+
+    <!--section 1-->
+    <section class="contact-header">
+        <div class="contact-text">
+            <p id='first-text'>
+                <a href="../pages/home.html">Home</a>
+                >
+                <a href="../pages/contactUs.html">Contact Us</a>
+            </p>
+            <h1>Lorem ipsum is simply dummy text of the printing and.</h1>
+            <p id="subtitle">
+                Lorem ipsum is simply dummy text of the printing and
+                typesetting industry.
+            </p>
+        </div>
+        <div class="welcome">
+            <img src="../img/Huge Global.png">
+        </div>
+        <div class="contact-bar">
+            <div class="contact-column" id="follow-us">
+                <span>Follow us</span>
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="contact-column">
+                <img src="../img/phone 1.png">
+                <p>+94 4444 5555 6</p>
+            </div>
+            <div class="contact-column">
+                <img src="../img/gps 1.png">
+                <p>but also the leap into electronic typesetting</p>
+            </div>
+        </div>
+    </section>
+
+    <!--section 2-->
+    <section class="form-say-hello">
+        <h2>Say hello</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing.</p>
+        <form>
+            <input type="text" name="firstName" placeholder="First Name">
+            <input type="text" name="lastName" placeholder="Last Name">
+            <input type="email" name="email" placeholder="Email Adress">
+            <input type="text" name="message" placeholder="Message">
+            <button class="form-btn" type="submit">Get in touch</button>
+        </form>
+    </section>
+
+    <!--last section-->
+    <section class="stay-in-loop">
+        <div>
+            <div>
+                <h3 class="loop-title">Lorem Ipsum</h3>
+                <p class="loop-text">
+                    Lorem ipsum is simply dummy text of the printing and typesetting
+                    industry.
+                </p>
+            </div>
+            <div>
+                <div id="insertEmail">
+                    <div class="email-text">
+                        <h3 class="box-title">Stay in the loop</h3>
+                        <p class="box-text">
+                            Subscribe to receive the latest news and updates about TDA.
+                            We promise not to spam you!
+                        </p>
+                    </div>
+                    <div class="email-input">
+                        <form action="">
+                            <input type="email" name="email" placeholder="Enter email adress">
+                            <button class="email-btn" type='submit'>Continue</button>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-foot">
+            <div class="column-foot">
+                <h3>LOGO</h3>
+                <p>
+                    Lorem ipsum is simply dummy text of the
+                    printing and typesetting industry.
+                </p>
+                <p>@Logo</p>
+            </div>
+            <div class="column-foot">
+                <span><b>About us</b></span>
+
+                <li>
+                    <a href="#">Zeux</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Careers</a>
+                </li>
+                <li>
+                    <a href="#">Contact us</a>
+                </li>
+            </div>
+            <div class="column-foot">
+                <span><b>Contact us</b></span>
+                <p>
+                    Lorem ipsum is simply dummy text of the
+                    printing and typesetting industry.
+                </p>
+                <p>
+                    +908 89097 890
+                </p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <div>Copyright © 2022 prodesigner. All rights reserved</div>
+        </div>
+    </footer>
 
     <script src="../scripts/script.js"></script>
 </body>
