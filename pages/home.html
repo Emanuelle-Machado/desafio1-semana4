@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/homeStyle.css">
     <title>Desafio 1</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
@@ -174,12 +176,12 @@
                 <img src="../img/Rectangle 15.png">
                 <img src="../img/Rectangle 16.png">
                 <img src="../img/Rectangle 17.png">
-                <img src="../img/Rectangle 18.png">
                 <img src="../img/Rectangle 19.png">
+                <img src="../img/Rectangle 18.png">
                 <img src="../img/Rectangle 20.png">
             </div>
-            <div>
-                <button class="see-all-btn">SEE ALL</button>
+            <div id="btn-see">
+                <button class="see-all-button">SEE ALL</button>
             </div>
         </section>
 
@@ -187,22 +189,27 @@
         <section class="stay-in-loop">
             <div>
                 <div>
-                    <h3>Lorem Ipsum</h3>
-                    <p>
+                    <h3 class="loop-title">Lorem Ipsum</h3>
+                    <p class="loop-text">
                         Lorem ipsum is simply dummy text of the printing and typesetting
                         industry.
                     </p>
                 </div>
                 <div>
                     <div id="insertEmail">
-                        <h3>Stay in the loop</h3>
-                        <p>
-                            Subscribe to receive the latest news and updates about TDA.
-                            We promise not to spam you!
-                        </p>
-                        <div class="email-btn">
-                            <input>Enter email adress
-                            <button>Continue</button>
+                        <div class="email-text">
+                            <h3 class="box-title">Stay in the loop</h3>
+                            <p class="box-text">
+                                Subscribe to receive the latest news and updates about TDA.
+                                We promise not to spam you!
+                            </p>
+                        </div>
+                        <div class="email-input">
+                            <form action="">
+                                <input type="email" name="email" placeholder="Enter email adress">
+                                <button class="email-btn" type='submit'>Continue</button>
+                            </form>
+
                         </div>
                     </div>
 
@@ -213,41 +220,44 @@
         <footer>
             <div class="container-foot">
                 <div class="column-foot">
-                    <div class="item-foot">LOGO</div>
-                    <div class="item-foot">
+                    <h3>LOGO</h3>
+                    <p>
                         Lorem ipsum is simply dummy text of the
                         printing and typesetting industry.
-                    </div>
-                    <div class="item-foot">@Logo</div>
+                    </p>
+                    <p>@Logo</p>
                 </div>
                 <div class="column-foot">
-                    <div class="item-foot">About us</div>
+                    <span><b>About us</b></span>
 
-                    <li class="item-foot">
-                        <a class="item-link" href="#">Zeux</a>
+                    <li>
+                        <a href="#">Zeux</a>
                     </li>
-                    <li class="item-foot">
-                        <a class="item-link" href="#">Portfolio</a>
+                    <li>
+                        <a href="#">Portfolio</a>
                     </li>
-                    <li class="item-foot">
-                        <a class="item-link" href="#">Careers</a>
+                    <li>
+                        <a href="#">Careers</a>
                     </li>
-                    <li class="item-foot">
-                        <a class="item-link" href="#">Contact us</a>
+                    <li>
+                        <a href="#">Contact us</a>
                     </li>
                 </div>
                 <div class="column-foot">
-                    <div class="item-foot">Contact us</div>
-                    <div class="item-foot">
+                    <span><b>Contact us</b></span>
+                    <p>
                         Lorem ipsum is simply dummy text of the
                         printing and typesetting industry.
-                    </div>
-                    <div class="item-foot">
-                        <div>+908 89097 890</div>
-                    </div>
+                    </p>
+                    <p>
+                        +908 89097 890
+                    </p>
                 </div>
-                <div class="social-midia">
-
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <div class="copyright">
