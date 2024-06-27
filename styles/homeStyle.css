@@ -86,6 +86,8 @@ h1 {
   position: absolute;
   max-width: 33%;
   height: auto;
+  max-height: 60%;
+  width: auto;
   flex: 1;
 }
 #joy_stick {
@@ -93,6 +95,8 @@ h1 {
   max-width: 33%;
   height: auto;
   flex: 1;
+  max-height: 60%;
+  width: auto;
 }
 .home-images {
   display: flex;
