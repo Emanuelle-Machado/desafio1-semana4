@@ -84,9 +84,3 @@ function validateInput(x, pattern) {
 
 
 }
-/*
-firstName.addEventListener('input', validateInput(firstName, firstNamePattern));
-lastName.addEventListener('input', validateInput(lastName, lastNamePattern));
-email.addEventListener('input', validateInput(email, emailPattern));
-message.addEventListener('input', validateInput(message, messagePattern));
-*/

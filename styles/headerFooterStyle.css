@@ -1,0 +1,121 @@
+/* ============================ HEADER */
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  font-family: "Poppins";
+  padding: 0 10% 0 10%;
+}
+header li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+header a:hover {
+  color: #fa9021;
+}
+nav {
+  display: flex;
+  gap: 20px;
+}
+ul {
+  display: flex;
+  align-self: center;
+}
+.nav-title {
+  display: flex;
+  font-weight: 900;
+  margin-right: auto;
+}
+.nav-title:hover {
+  color: #fa9021;
+}
+.bar-button {
+  display: inline-block;
+  background-color: #fa9021;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  height: fit-content;
+  align-self: center;
+}
+.bar-button:hover {
+  background-color: #f57c00;
+}
+
+/* ============================ FOOTER */
+footer {
+  background-color: black;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  position: absolute;
+  height: auto;
+  padding: 5% 10% 0 10%;
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer p {
+  margin-bottom: 5px;
+}
+.column-foot {
+  display: flex;
+  flex: 1;
+  flex-wrap: column wrap;
+  width: 100%;
+  margin: auto;
+  align-items: stretch;
+  height: 100%;
+  height: auto;
+  align-items: flex-start;
+}
+footer span {
+  font-size: 20px;
+  color: white;
+  margin-top: 0;
+}
+footer li {
+  list-style: none;
+}
+.social-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 20px;
+  height: auto;
+}
+.container-foot {
+  display: flex;
+  flex-flow: column nowwrap;
+  justify-content: space-around;
+  width: 80%;
+  align-items: center;
+}
+.column-foot {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-top: white 1px solid;
+  margin-top: 20px;
+  color: white;
+  padding: 3% 0 3% 0;
+}
