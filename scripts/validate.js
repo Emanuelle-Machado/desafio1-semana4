@@ -52,12 +52,12 @@ btn.addEventListener('click', function (e) {
 
     if (whatPage == true && amount == 4) {
         console.log(whatPage);
-        localStorage.setItem('firstName', firstName);
-        localStorage.setItem('lastName', lastName);
-        localStorage.setItem('email', email);
-        localStorage.setItem('message', message);
+        localStorage.setItem('firstName', firstName.value);
+        localStorage.setItem('lastName', lastName.value);
+        localStorage.setItem('email', email.value);
+        localStorage.setItem('message', message.value);
 
-        return window.location.href = '../pages/success.html';
+        return window.location.href = 'http://127.0.0.1:5500/pages/sucess.html';
     } else {
         alert("Preencha todos os campos corretamente.");
 

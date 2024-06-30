@@ -13,21 +13,8 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('emailDisplay').innerHTML = email;
         document.getElementById('messageDisplay').innerHTML = message;
     } else {
-        alert('No data found');
-        window.location.href = '../pages/error.html';
+        window.location.href = 'http://127.0.0.1:5500/pages/error.html';
     }
 });
 
 
-/*
-window.onload = function () {
-    const params = new URLSearchParams(window.location.search);
-    const formData = document.getElementById('formData');
-    formData.innerHTML = `
-        <p>Primeiro Nome: ${params.get('firstName')}</p>
-        <p>Sobrenome: ${params.get('lastName')}</p>
-        <p>Email: ${params.get('email')}</p>
-        <p>Mensagem: ${params.get('message')}</p> `;
-
-};
-*/
