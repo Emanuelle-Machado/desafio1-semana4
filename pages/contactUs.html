@@ -83,28 +83,23 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
                 <p>Lorem Ipsum is simply dummy text of the printing.</p>
             </div>
             <div id="form-div">
-                <form action="sucess.html" method="post">
+                <form action="../pages/sucess.html" method="post" id="contactForm" onsubmit="return validateForm()">
                     <label for="firstName">First Name
-                        <input type="text" name="firstName" id="firstName" required>
-                        <span class="mensagem-erro"></span>
+                        <input type="text" name="firstName" id="firstName"></input>
                     </label>
                     <label for="lastName">Last Name
-                        <input type="text" name="lastName" id="lastName" required>
-                        <span class="mensagem-erro"></span>
+                        <input type="text" name="lastName" id="lastName"></input>
                     </label>
                     <label for="email">Email
-                        <input type="email" name="email" id="email" required>
-                        <span class="mensagem-erro"></span>
+                        <input type="email" name="email" id="email"></input>
                     </label>
                     <label for="message">Message
-                        <input type="text" name="message" id="message" minlength="10" required>
-                        <span class="mensagem-erro"></span>
+                        <input type="text" name="message" id="message" minlength="10"></input>
                     </label>
-
-                    <button class="form-btn" type="submit" id="submit">Get in touch</button>
+                    <button class="form-btn" type="submit" id="submit" disabled>Get in touch</button>
                 </form>
             </div>
-            <img id="linha-baixa" src="../img/linha-baixa.png">
+            <img id=" linha-baixa" src="../img/linha-baixa.png">
         </div>
     </section>
 
@@ -128,9 +123,9 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
                         </p>
                     </div>
                     <div class="email-input">
-                        <form action="">
-                            <input type="email" name="email" placeholder="Enter email adress">
-                            <button class="email-btn" type='submit'>Continue</button>
+                        <form>
+                            <input type="email" name="email" id="email-box" placeholder="Enter email adress">
+                            <button class="email-btn" id="email-btn" type='submit'>Continue</button>
                         </form>
 
                     </div>
@@ -189,6 +184,7 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     </footer>
 
     <script src="../scripts/validate.js"></script>
+    <script src="../scripts/newsSubs.js"></script>
 </body>
 
 </html>
