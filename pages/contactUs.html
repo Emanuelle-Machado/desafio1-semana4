@@ -36,7 +36,7 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         </nav>
     </header>
 
-    <!--section 1-->
+
     <section class="contact-header">
         <div class="contact-text">
             <p id='first-text'>
@@ -74,7 +74,7 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         </div>
     </section>
 
-    <!--section 2-->
+
     <section class="form-say-hello">
         <div>
             <img id="linha-alta" src="../img/linha-alta.png">
@@ -83,7 +83,7 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
                 <p>Lorem Ipsum is simply dummy text of the printing.</p>
             </div>
             <div id="form-div">
-                <form action="../pages/sucess.html" method="post" id="contactForm" onsubmit="return validateForm()">
+                <form action="sucess.html" method="post" id="contactForm" onsubmit="return validateForm()">
                     <label for="firstName">First Name
                         <input type="text" name="firstName" id="firstName"></input>
                     </label>
@@ -96,14 +96,17 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
                     <label for="message">Message
                         <input type="text" name="message" id="message" minlength="10"></input>
                     </label>
-                    <button class="form-btn" type="submit" id="submit" disabled>Get in touch</button>
+                    <button class="form-btn" type="button" id="button"
+                        onclick="window.location.href='../pages/sucess.html'">Get in
+                        touch</button>
+
                 </form>
             </div>
             <img id=" linha-baixa" src="../img/linha-baixa.png">
         </div>
     </section>
 
-    <!--last section-->
+
     <section class="stay-in-loop">
         <div>
             <div>
