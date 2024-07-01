@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         document.getElementById('emailDisplay').innerHTML = email;
         document.getElementById('messageDisplay').innerHTML = message;
     } else {
-        window.location.href = 'http://127.0.0.1:5500/pages/error.html';
+        window.location.href = '/pages/error.html';
     }
 });
 
