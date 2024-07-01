@@ -6,8 +6,6 @@ body {
   margin: 0;
 }
 
-/* ============================ FIRST SECTION */
-
 .contact-text {
   display: flex;
   flex-flow: column wrap;
@@ -66,7 +64,6 @@ body {
   width: 20px;
   height: auto;
 }
-/* ============================ SECOND SECTION */
 
 .form-say-hello {
   display: flex;
@@ -147,8 +144,6 @@ body {
 .form-btn:hover {
   background-color: #f57c00;
 }
-
-/* ============================ LAST SECTION */
 
 .stay-in-loop {
   display: flex;

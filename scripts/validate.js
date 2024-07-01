@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const form = document.getElementById('contactForm');
 
-    const btn = document.getElementById('submit');
+
 
     const firstName = document.getElementById('firstName');
     const lastName = document.getElementById('lastName');
@@ -15,10 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     inputs.forEach(input => {
         input.addEventListener('input', validateForm);
-        console.log('input');
     });
-
-    btn.disabled = true;
 
     function validateForm() {
         console.log('validando form');
@@ -27,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         let amount = 0;
         let whatPage = true;
+
 
         if ((firstName.value === "") || (lastName.value === "") || (email.value === "") || (message.value === "")) {
             whatPage = false;
@@ -66,11 +64,11 @@ document.addEventListener('DOMContentLoaded', function () {
             localStorage.setItem('email', email.value);
             localStorage.setItem('message', message.value);
 
-            return btn.disabled = false;
+
+            return;
 
         }
     }
-
     function validateInput(x, pattern) {
         console.log('validando input');
 

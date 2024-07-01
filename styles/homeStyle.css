@@ -13,8 +13,6 @@ body {
   width: 100%;
 }
 
-/* ============================ SECTION 1 */
-
 #first-text {
   color: #e87d0e;
   font-weight: 900;
@@ -75,8 +73,6 @@ h1 {
   padding: 0 10% 0 10%;
 }
 
-/* ============================ SECTION 2*/
-
 .trending-games {
   display: inline-block;
   flex-flow: column wrap;
@@ -125,8 +121,6 @@ h1 {
   flex: 1;
 }
 
-/* ============================ SECTION 3 */
-
 .lorem-image {
   display: flex;
   flex-flow: column wrap;
@@ -157,8 +151,6 @@ h1 {
   flex: 1;
 }
 
-/* ============================ SECTION 4 */
-
 .bg {
   background-image: url("../img/backimage.png");
   /*filter: brightness(25%);*/
@@ -188,8 +180,6 @@ h1 {
   height: auto;
   flex: 1;
 }
-
-/* ============================ SECTION 5 */
 
 .text-projects {
   display: flex;
@@ -239,8 +229,6 @@ h1 {
 .see-all-button:hover {
   background-color: #3d2f8c;
 }
-
-/* ============================ SECTION 6 */
 
 .stay-in-loop {
   display: flex;
